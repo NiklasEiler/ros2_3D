@@ -1,0 +1,5 @@
+  File "/home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud/my_3d_node.py", line 36
+    o3d.visualization.draw_geometries([pointcloud]
+                                     ^
+SyntaxError: '(' was never closed
+

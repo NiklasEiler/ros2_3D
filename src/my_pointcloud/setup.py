@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "3d_node=my_3d_node.my_3d_node:main"
+            "3d_node=my_pointcloud.my_3d_node:main"
         ],
     },
 )

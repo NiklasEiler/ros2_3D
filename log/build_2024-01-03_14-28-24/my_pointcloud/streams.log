@@ -1,0 +1,24 @@
+[5.965s] Invoking command in '/home/niklas/ros_3d/src/my_pointcloud': PYTHONPATH=/home/niklas/ros_3d/build/my_pointcloud/prefix_override:/home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pointcloud build --build-base /home/niklas/ros_3d/build/my_pointcloud/build install --record /home/niklas/ros_3d/build/my_pointcloud/install.log --single-version-externally-managed
+[7.803s] running egg_info
+[7.805s] writing ../../build/my_pointcloud/my_pointcloud.egg-info/PKG-INFO
+[7.806s] writing dependency_links to ../../build/my_pointcloud/my_pointcloud.egg-info/dependency_links.txt
+[7.807s] writing entry points to ../../build/my_pointcloud/my_pointcloud.egg-info/entry_points.txt
+[7.808s] writing requirements to ../../build/my_pointcloud/my_pointcloud.egg-info/requires.txt
+[7.808s] writing top-level names to ../../build/my_pointcloud/my_pointcloud.egg-info/top_level.txt
+[7.817s] reading manifest file '../../build/my_pointcloud/my_pointcloud.egg-info/SOURCES.txt'
+[7.821s] writing manifest file '../../build/my_pointcloud/my_pointcloud.egg-info/SOURCES.txt'
+[7.822s] running build
+[7.822s] running build_py
+[7.823s] copying my_pointcloud/my_3d_node.py -> /home/niklas/ros_3d/build/my_pointcloud/build/lib/my_pointcloud
+[7.824s] running install
+[7.825s] running install_lib
+[7.829s] copying /home/niklas/ros_3d/build/my_pointcloud/build/lib/my_pointcloud/my_3d_node.py -> /home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud
+[7.832s] byte-compiling /home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud/my_3d_node.py to my_3d_node.cpython-310.pyc
+[7.838s] running install_data
+[7.840s] running install_egg_info
+[7.847s] removing '/home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud-0.0.0-py3.10.egg-info' (and everything under it)
+[7.849s] Copying ../../build/my_pointcloud/my_pointcloud.egg-info to /home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud-0.0.0-py3.10.egg-info
+[7.859s] running install_scripts
+[7.934s] Installing 3d_node script to /home/niklas/ros_3d/install/my_pointcloud/lib/my_pointcloud
+[7.936s] writing list of installed files to '/home/niklas/ros_3d/build/my_pointcloud/install.log'
+[8.068s] Invoked command in '/home/niklas/ros_3d/src/my_pointcloud' returned '0': PYTHONPATH=/home/niklas/ros_3d/build/my_pointcloud/prefix_override:/home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pointcloud build --build-base /home/niklas/ros_3d/build/my_pointcloud/build install --record /home/niklas/ros_3d/build/my_pointcloud/install.log --single-version-externally-managed

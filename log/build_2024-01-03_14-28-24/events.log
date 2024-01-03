@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.001174] (my_pointcloud) JobQueued: {'identifier': 'my_pointcloud', 'dependencies': OrderedDict()}
+[0.002189] (my_pointcloud) JobStarted: {'identifier': 'my_pointcloud'}
+[0.099144] (-) TimerEvent: {}
+[0.201111] (-) TimerEvent: {}
+[0.309699] (-) TimerEvent: {}
+[0.414853] (-) TimerEvent: {}
+[0.515733] (-) TimerEvent: {}
+[0.616517] (-) TimerEvent: {}
+[0.718052] (-) TimerEvent: {}
+[0.820640] (-) TimerEvent: {}
+[0.921601] (-) TimerEvent: {}
+[1.022937] (-) TimerEvent: {}
+[1.124038] (-) TimerEvent: {}
+[1.224854] (-) TimerEvent: {}
+[1.326326] (-) TimerEvent: {}
+[1.428245] (-) TimerEvent: {}
+[1.529083] (-) TimerEvent: {}
+[1.630152] (-) TimerEvent: {}
+[1.731907] (-) TimerEvent: {}
+[1.835103] (-) TimerEvent: {}
+[1.937376] (-) TimerEvent: {}
+[2.038745] (-) TimerEvent: {}
+[2.141174] (-) TimerEvent: {}
+[2.244379] (-) TimerEvent: {}
+[2.348984] (-) TimerEvent: {}
+[2.449772] (-) TimerEvent: {}
+[2.550695] (-) TimerEvent: {}
+[2.651824] (-) TimerEvent: {}
+[2.752958] (-) TimerEvent: {}
+[2.853805] (-) TimerEvent: {}
+[2.954510] (-) TimerEvent: {}
+[3.055232] (-) TimerEvent: {}
+[3.157725] (-) TimerEvent: {}
+[3.258693] (-) TimerEvent: {}
+[3.359687] (-) TimerEvent: {}
+[3.461724] (-) TimerEvent: {}
+[3.567757] (-) TimerEvent: {}
+[3.672670] (-) TimerEvent: {}
+[3.773447] (-) TimerEvent: {}
+[3.874219] (-) TimerEvent: {}
+[3.975219] (-) TimerEvent: {}
+[4.075974] (-) TimerEvent: {}
+[4.176757] (-) TimerEvent: {}
+[4.277551] (-) TimerEvent: {}
+[4.378656] (-) TimerEvent: {}
+[4.479379] (-) TimerEvent: {}
+[4.580062] (-) TimerEvent: {}
+[4.680773] (-) TimerEvent: {}
+[4.781409] (-) TimerEvent: {}
+[4.882093] (-) TimerEvent: {}
+[4.982909] (-) TimerEvent: {}
+[5.083672] (-) TimerEvent: {}
+[5.184703] (-) TimerEvent: {}
+[5.285489] (-) TimerEvent: {}
+[5.386498] (-) TimerEvent: {}
+[5.488209] (-) TimerEvent: {}
+[5.590271] (-) TimerEvent: {}
+[5.691452] (-) TimerEvent: {}
+[5.793552] (-) TimerEvent: {}
+[5.895076] (-) TimerEvent: {}
+[5.964867] (my_pointcloud) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_pointcloud', 'build', '--build-base', '/home/niklas/ros_3d/build/my_pointcloud/build', 'install', '--record', '/home/niklas/ros_3d/build/my_pointcloud/install.log', '--single-version-externally-managed'], 'cwd': '/home/niklas/ros_3d/src/my_pointcloud', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'niklas', 'LC_TIME': 'de_DE.UTF-8', 'SSH_AGENT_PID': '2584', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/niklas', 'OLDPWD': '/home/niklas', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2757', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/niklas/ros_3d/install:/home/niklas/ros2_gui/install:/home/niklas/ros2-stereo-camera-analyse/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'niklas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/niklas-desktop:@/tmp/.ICE-unix/2706,unix/niklas-desktop:/tmp/.ICE-unix/2706', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7348ead3_8fe9_486f_87b5_21985586f6b3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/niklas/ros_3d/install/my_pointcloud:/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing:/home/niklas/ros2_gui/install/my_gui:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/niklas/ros_3d/build/my_pointcloud', 'LC_ALL': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/niklas/ros_3d/build/my_pointcloud/prefix_override:/home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages:/home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages:/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages:/home/niklas/ros2_gui/install/my_gui/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.995454] (-) TimerEvent: {}
+[6.113475] (-) TimerEvent: {}
+[6.215166] (-) TimerEvent: {}
+[6.319049] (-) TimerEvent: {}
+[6.419766] (-) TimerEvent: {}
+[6.520604] (-) TimerEvent: {}
+[6.621437] (-) TimerEvent: {}
+[6.722304] (-) TimerEvent: {}
+[6.823127] (-) TimerEvent: {}
+[6.923974] (-) TimerEvent: {}
+[7.024876] (-) TimerEvent: {}
+[7.125702] (-) TimerEvent: {}
+[7.226443] (-) TimerEvent: {}
+[7.327193] (-) TimerEvent: {}
+[7.427893] (-) TimerEvent: {}
+[7.528611] (-) TimerEvent: {}
+[7.629269] (-) TimerEvent: {}
+[7.729909] (-) TimerEvent: {}
+[7.804836] (my_pointcloud) StdoutLine: {'line': b'running egg_info\n'}
+[7.807421] (my_pointcloud) StdoutLine: {'line': b'writing ../../build/my_pointcloud/my_pointcloud.egg-info/PKG-INFO\n'}
+[7.808513] (my_pointcloud) StdoutLine: {'line': b'writing dependency_links to ../../build/my_pointcloud/my_pointcloud.egg-info/dependency_links.txt\n'}
+[7.809398] (my_pointcloud) StdoutLine: {'line': b'writing entry points to ../../build/my_pointcloud/my_pointcloud.egg-info/entry_points.txt\n'}
+[7.810182] (my_pointcloud) StdoutLine: {'line': b'writing requirements to ../../build/my_pointcloud/my_pointcloud.egg-info/requires.txt\n'}
+[7.810816] (my_pointcloud) StdoutLine: {'line': b'writing top-level names to ../../build/my_pointcloud/my_pointcloud.egg-info/top_level.txt\n'}
+[7.819155] (my_pointcloud) StdoutLine: {'line': b"reading manifest file '../../build/my_pointcloud/my_pointcloud.egg-info/SOURCES.txt'\n"}
+[7.823289] (my_pointcloud) StdoutLine: {'line': b"writing manifest file '../../build/my_pointcloud/my_pointcloud.egg-info/SOURCES.txt'\n"}
+[7.824106] (my_pointcloud) StdoutLine: {'line': b'running build\n'}
+[7.824640] (my_pointcloud) StdoutLine: {'line': b'running build_py\n'}
+[7.825125] (my_pointcloud) StdoutLine: {'line': b'copying my_pointcloud/my_3d_node.py -> /home/niklas/ros_3d/build/my_pointcloud/build/lib/my_pointcloud\n'}
+[7.826367] (my_pointcloud) StdoutLine: {'line': b'running install\n'}
+[7.827570] (my_pointcloud) StdoutLine: {'line': b'running install_lib\n'}
+[7.830064] (-) TimerEvent: {}
+[7.831292] (my_pointcloud) StdoutLine: {'line': b'copying /home/niklas/ros_3d/build/my_pointcloud/build/lib/my_pointcloud/my_3d_node.py -> /home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud\n'}
+[7.834696] (my_pointcloud) StdoutLine: {'line': b'byte-compiling /home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud/my_3d_node.py to my_3d_node.cpython-310.pyc\n'}
+[7.840000] (my_pointcloud) StdoutLine: {'line': b'running install_data\n'}
+[7.842814] (my_pointcloud) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.849500] (my_pointcloud) StdoutLine: {'line': b"removing '/home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.851229] (my_pointcloud) StdoutLine: {'line': b'Copying ../../build/my_pointcloud/my_pointcloud.egg-info to /home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud-0.0.0-py3.10.egg-info\n'}
+[7.861638] (my_pointcloud) StdoutLine: {'line': b'running install_scripts\n'}
+[7.930231] (-) TimerEvent: {}
+[7.936613] (my_pointcloud) StdoutLine: {'line': b'Installing 3d_node script to /home/niklas/ros_3d/install/my_pointcloud/lib/my_pointcloud\n'}
+[7.938356] (my_pointcloud) StdoutLine: {'line': b"writing list of installed files to '/home/niklas/ros_3d/build/my_pointcloud/install.log'\n"}
+[8.030530] (-) TimerEvent: {}
+[8.068965] (my_pointcloud) CommandEnded: {'returncode': 0}
+[8.130961] (-) TimerEvent: {}
+[8.231902] (-) TimerEvent: {}
+[8.333291] (-) TimerEvent: {}
+[8.375391] (my_pointcloud) JobEnded: {'identifier': 'my_pointcloud', 'rc': 0}
+[8.378278] (-) EventReactorShutdown: {}

@@ -3,23 +3,27 @@ import os
 import time
 
 import rclpy 
-from rclpy.node import Node
 import sensor_msgs.msg as sensor_msgs
 
 
+
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout
+from threading import Thread
+from rclpy.executors import MultiThreadedExecutor
+from rclpy.node import Node
+from std_msgs.msg import String
+from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QWidget, QPushButton
 import numpy as np
 import pandas as pd
 import open3d as o3d
 
-class PCDListener(Node):
+
+class node_pointcloud(Node):
 
     def __init__(self):
         super().__init__('pcd_subsriber_node')
         self.i=0
-        ## This is for visualization of the received point cloud.
-        self.vis = o3d.visualization.Visualizer()
-        #self.vis.create_window()
-        self.o3d_pcd = o3d.geometry.PointCloud()
+        self.save_3d=0
 
 
         # Set up a subscription to the 'pcd' topic with a callback to the 
@@ -31,35 +35,36 @@ class PCDListener(Node):
             9000                          # QoS
         )
 
+        self.subscription = self.create_subscription(
+            String,
+            '/gui/button_1',  # Change 'your_string_topic' to the actual topic name
+            self.button_callback,
+            10  # QoS profile, 10 is the depth of the subscription queue
+        )
+        self.subscription
                 
     def listener_callback(self, msg):
-        # Here we convert the 'msg', which is of the type PointCloud2.
-        # I ported the function read_points2 from 
-        # the ROS1 package. 
-        # https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/src/sensor_msgs/point_cloud2.py
         self.i+=1
         pcd_as_numpy_array = np.array(list(read_points(msg)))
-        df = pd.DataFrame(pcd_as_numpy_array)
-
-        # Save the DataFrame to a CSV file
-        df.to_csv('my_dataframe'+ str((self.i))+'.csv', index=False)
-
-        # The rest here is for visualization.
-        if pcd_as_numpy_array is not None:
-            self.vis.remove_geometry(self.o3d_pcd)
-            #self.o3d_pcd = o3d.geometry.PointCloud(
-            #                    o3d.utility.Vector3dVector(pcd_as_numpy_array))
-            self.vis.add_geometry(self.o3d_pcd)
-            self.vis.poll_events()
-            self.vis.update_renderer()
-
+        pcd_as_numpy_array = pcd_as_numpy_array[:,0:2] 
+        pcd_as_numpy_array=pcd_as_numpy_array[~np.isnan(pcd_as_numpy_array).any(axis=1)] 
         
+        #print(pcd_as_numpy_array)
+        #print('##########################################')
+        
+        
+        if self.save_3d==1:
+            df = pd.DataFrame(pcd_as_numpy_array)
+            df.to_csv('my_dataframe'+ str((self.i))+'.csv', index=False)
+            self.save_3d=0
+    
+    
+    def button_callback(self, msg):
+        self.save_3d=1
 
 
 ## The code below is "ported" from 
 # https://github.com/ros/common_msgs/tree/noetic-devel/sensor_msgs/src/sensor_msgs
-# I'll make an official port and PR to this repo later: 
-# https://github.com/ros2/common_interfaces
 import sys
 from collections import namedtuple
 import ctypes
@@ -149,20 +154,18 @@ def _get_struct_fmt(is_bigendian, fields, field_names=None):
     return fmt
 
 
+    
 
 def main(args=None):
-    
-    # Boilerplate code.
+        
     rclpy.init(args=args)
-    pcd_listener = PCDListener()
-    rclpy.spin(pcd_listener)
+    pointcloud = node_pointcloud()
+    rclpy.spin(pointcloud)
     
-    # Destroy the node explicitly
-    # (optional - otherwise it will be done automatically
-    # when the garbage collector destroys the node object)
-    pcd_listener.destroy_node()
+    
+    pointcloud.destroy_node()
     rclpy.shutdown()
-
+    
 if __name__ == '__main__':
     main()
 

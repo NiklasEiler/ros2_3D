@@ -1,0 +1,129 @@
+[6.376s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[6.377s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb8eb75e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb935fe20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb935fe20>>)
+[6.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.614s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/niklas/ros_3d'
+[6.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.664s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.664s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.664s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.667s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.667s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.668s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.668s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.668s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.668s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.668s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extensions ['ignore', 'ignore_ament_install']
+[6.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extension 'ignore'
+[6.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extension 'ignore_ament_install'
+[6.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extensions ['colcon_pkg']
+[6.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extension 'colcon_pkg'
+[6.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extensions ['colcon_meta']
+[6.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extension 'colcon_meta'
+[6.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extensions ['ros']
+[6.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extension 'ros'
+[6.681s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_pointcloud' with type 'ros.ament_python' and name 'my_pointcloud'
+[6.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.465s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/niklas/ros_3d/install
+[7.584s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/niklas/ros2_gui/install
+[7.666s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/niklas/ros2-stereo-camera-analyse/install
+[7.755s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[7.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.194s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_args' from command line to 'None'
+[8.194s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_target' from command line to 'None'
+[8.195s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.195s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_clean_cache' from command line to 'False'
+[8.195s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_clean_first' from command line to 'False'
+[8.195s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_force_configure' from command line to 'False'
+[8.195s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'ament_cmake_args' from command line to 'None'
+[8.195s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'catkin_cmake_args' from command line to 'None'
+[8.195s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.195s] DEBUG:colcon.colcon_core.verb:Building package 'my_pointcloud' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niklas/ros_3d/build/my_pointcloud', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niklas/ros_3d/install/my_pointcloud', 'merge_install': False, 'path': '/home/niklas/ros_3d/src/my_pointcloud', 'symlink_install': False, 'test_result_base': None}
+[8.280s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.365s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/niklas/ros_3d/src/my_pointcloud' with build type 'ament_python'
+[8.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_pointcloud', 'ament_prefix_path')
+[8.546s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niklas/ros_3d/install/my_pointcloud/share/my_pointcloud/hook/ament_prefix_path.ps1'
+[8.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niklas/ros_3d/install/my_pointcloud/share/my_pointcloud/hook/ament_prefix_path.dsv'
+[8.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niklas/ros_3d/install/my_pointcloud/share/my_pointcloud/hook/ament_prefix_path.sh'
+[8.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.945s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/niklas/ros_3d/src/my_pointcloud'
+[11.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niklas/ros_3d/src/my_pointcloud': PYTHONPATH=/home/niklas/ros_3d/build/my_pointcloud/prefix_override:/home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pointcloud build --build-base /home/niklas/ros_3d/build/my_pointcloud/build install --record /home/niklas/ros_3d/build/my_pointcloud/install.log --single-version-externally-managed
+[15.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niklas/ros_3d/src/my_pointcloud' returned '0': PYTHONPATH=/home/niklas/ros_3d/build/my_pointcloud/prefix_override:/home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pointcloud build --build-base /home/niklas/ros_3d/build/my_pointcloud/build install --record /home/niklas/ros_3d/build/my_pointcloud/install.log --single-version-externally-managed
+[16.116s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros_3d/install/my_pointcloud' for CMake module files
+[16.125s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros_3d/install/my_pointcloud' for CMake config files
+[16.134s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros_3d/install/my_pointcloud/lib'
+[16.138s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros_3d/install/my_pointcloud/bin'
+[16.139s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros_3d/install/my_pointcloud/lib/pkgconfig/my_pointcloud.pc'
+[16.140s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros_3d/install/my_pointcloud/lib/python3.10/site-packages'
+[16.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_pointcloud', 'pythonpath')
+[16.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niklas/ros_3d/install/my_pointcloud/share/my_pointcloud/hook/pythonpath.ps1'
+[16.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niklas/ros_3d/install/my_pointcloud/share/my_pointcloud/hook/pythonpath.dsv'
+[16.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niklas/ros_3d/install/my_pointcloud/share/my_pointcloud/hook/pythonpath.sh'
+[16.258s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros_3d/install/my_pointcloud/bin'
+[16.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_pointcloud)
+[16.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/niklas/ros_3d/install/my_pointcloud/share/my_pointcloud/package.ps1'
+[16.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niklas/ros_3d/install/my_pointcloud/share/my_pointcloud/package.dsv'
+[16.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/niklas/ros_3d/install/my_pointcloud/share/my_pointcloud/package.sh'
+[16.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/niklas/ros_3d/install/my_pointcloud/share/my_pointcloud/package.bash'
+[16.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/niklas/ros_3d/install/my_pointcloud/share/my_pointcloud/package.zsh'
+[16.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niklas/ros_3d/install/my_pointcloud/share/colcon-core/packages/my_pointcloud)
+[16.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.366s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.366s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.367s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.508s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.567s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niklas/ros_3d/install/local_setup.ps1'
+[16.713s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niklas/ros_3d/install/_local_setup_util_ps1.py'
+[16.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niklas/ros_3d/install/setup.ps1'
+[16.818s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niklas/ros_3d/install/local_setup.sh'
+[16.820s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niklas/ros_3d/install/_local_setup_util_sh.py'
+[16.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niklas/ros_3d/install/setup.sh'
+[16.937s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niklas/ros_3d/install/local_setup.bash'
+[16.939s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niklas/ros_3d/install/setup.bash'
+[17.034s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niklas/ros_3d/install/local_setup.zsh'
+[17.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niklas/ros_3d/install/setup.zsh'

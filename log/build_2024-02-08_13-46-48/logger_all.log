@@ -1,0 +1,129 @@
+[5.809s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.809s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8ba10040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8bd20e20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8bd20e20>>)
+[6.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.057s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/stereocamera/ros2_3D'
+[6.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.110s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.111s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.111s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.111s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.114s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.114s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extensions ['ignore', 'ignore_ament_install']
+[6.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extension 'ignore'
+[6.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extension 'ignore_ament_install'
+[6.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extensions ['colcon_pkg']
+[6.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extension 'colcon_pkg'
+[6.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extensions ['colcon_meta']
+[6.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extension 'colcon_meta'
+[6.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extensions ['ros']
+[6.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pointcloud) by extension 'ros'
+[6.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_pointcloud' with type 'ros.ament_python' and name 'my_pointcloud'
+[6.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.954s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/stereocamera/ros2_stereo_camera_analyse/install
+[7.045s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/stereocamera/ros2_3D/install
+[7.135s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/stereocamera/ros2_gui/install
+[7.234s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[7.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.720s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_args' from command line to 'None'
+[7.721s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_target' from command line to 'None'
+[7.721s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.721s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_clean_cache' from command line to 'False'
+[7.721s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_clean_first' from command line to 'False'
+[7.721s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'cmake_force_configure' from command line to 'False'
+[7.721s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'ament_cmake_args' from command line to 'None'
+[7.721s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'catkin_cmake_args' from command line to 'None'
+[7.722s] Level 5:colcon.colcon_core.verb:set package 'my_pointcloud' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.722s] DEBUG:colcon.colcon_core.verb:Building package 'my_pointcloud' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stereocamera/ros2_3D/build/my_pointcloud', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stereocamera/ros2_3D/install/my_pointcloud', 'merge_install': False, 'path': '/home/stereocamera/ros2_3D/src/my_pointcloud', 'symlink_install': False, 'test_result_base': None}
+[7.799s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.877s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.878s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/stereocamera/ros2_3D/src/my_pointcloud' with build type 'ament_python'
+[7.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_pointcloud', 'ament_prefix_path')
+[7.979s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud/hook/ament_prefix_path.ps1'
+[7.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud/hook/ament_prefix_path.dsv'
+[7.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud/hook/ament_prefix_path.sh'
+[8.079s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.365s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/stereocamera/ros2_3D/src/my_pointcloud'
+[10.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stereocamera/ros2_3D/src/my_pointcloud': PYTHONPATH=/home/stereocamera/ros2_3D/build/my_pointcloud/prefix_override:/home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pointcloud build --build-base /home/stereocamera/ros2_3D/build/my_pointcloud/build install --record /home/stereocamera/ros2_3D/build/my_pointcloud/install.log --single-version-externally-managed
+[14.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stereocamera/ros2_3D/src/my_pointcloud' returned '0': PYTHONPATH=/home/stereocamera/ros2_3D/build/my_pointcloud/prefix_override:/home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pointcloud build --build-base /home/stereocamera/ros2_3D/build/my_pointcloud/build install --record /home/stereocamera/ros2_3D/build/my_pointcloud/install.log --single-version-externally-managed
+[14.527s] Level 1:colcon.colcon_core.environment:checking '/home/stereocamera/ros2_3D/install/my_pointcloud' for CMake module files
+[14.530s] Level 1:colcon.colcon_core.environment:checking '/home/stereocamera/ros2_3D/install/my_pointcloud' for CMake config files
+[14.536s] Level 1:colcon.colcon_core.environment:checking '/home/stereocamera/ros2_3D/install/my_pointcloud/lib'
+[14.538s] Level 1:colcon.colcon_core.environment:checking '/home/stereocamera/ros2_3D/install/my_pointcloud/bin'
+[14.539s] Level 1:colcon.colcon_core.environment:checking '/home/stereocamera/ros2_3D/install/my_pointcloud/lib/pkgconfig/my_pointcloud.pc'
+[14.541s] Level 1:colcon.colcon_core.environment:checking '/home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages'
+[14.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_pointcloud', 'pythonpath')
+[14.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud/hook/pythonpath.ps1'
+[14.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud/hook/pythonpath.dsv'
+[14.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud/hook/pythonpath.sh'
+[14.906s] Level 1:colcon.colcon_core.environment:checking '/home/stereocamera/ros2_3D/install/my_pointcloud/bin'
+[14.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_pointcloud)
+[15.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud/package.ps1'
+[15.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud/package.dsv'
+[15.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud/package.sh'
+[15.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud/package.bash'
+[15.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud/package.zsh'
+[15.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stereocamera/ros2_3D/install/my_pointcloud/share/colcon-core/packages/my_pointcloud)
+[15.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.196s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.506s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.508s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.623s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.916s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stereocamera/ros2_3D/install/local_setup.ps1'
+[15.934s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/stereocamera/ros2_3D/install/_local_setup_util_ps1.py'
+[15.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stereocamera/ros2_3D/install/setup.ps1'
+[16.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stereocamera/ros2_3D/install/local_setup.sh'
+[16.335s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/stereocamera/ros2_3D/install/_local_setup_util_sh.py'
+[16.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stereocamera/ros2_3D/install/setup.sh'
+[16.655s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stereocamera/ros2_3D/install/local_setup.bash'
+[16.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stereocamera/ros2_3D/install/setup.bash'
+[16.906s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stereocamera/ros2_3D/install/local_setup.zsh'
+[16.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stereocamera/ros2_3D/install/setup.zsh'

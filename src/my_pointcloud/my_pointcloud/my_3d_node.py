@@ -12,7 +12,9 @@ from threading import Thread
 from rclpy.executors import MultiThreadedExecutor
 from rclpy.node import Node
 from std_msgs.msg import String
-from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QWidget, QPushButton
+from sensor_msgs.msg import Image
+from cv_bridge import CvBridge
+import cv2
 import numpy as np
 import pandas as pd
 import open3d as o3d
@@ -22,6 +24,7 @@ class node_pointcloud(Node):
 
     def __init__(self):
         super().__init__('pcd_subsriber_node')
+        self.cnt_3d_s=1
         self.i=0
         self.save_3d=0
 
@@ -35,32 +38,37 @@ class node_pointcloud(Node):
             9000                          # QoS
         )
 
+
         self.subscription = self.create_subscription(
             String,
-            '/gui/button_1',  # Change 'your_string_topic' to the actual topic name
+            '/gui/speichern',  
             self.button_callback,
-            10  # QoS profile, 10 is the depth of the subscription queue
+            10  
         )
-        self.subscription
+        
                 
     def listener_callback(self, msg):
         self.i+=1
         pcd_as_numpy_array = np.array(list(read_points(msg)))
-        pcd_as_numpy_array = pcd_as_numpy_array[:,0:2] 
+        pcd_as_numpy_array = pcd_as_numpy_array[:, :-1]
         pcd_as_numpy_array=pcd_as_numpy_array[~np.isnan(pcd_as_numpy_array).any(axis=1)] 
         
         #print(pcd_as_numpy_array)
-        #print('##########################################')
+        print('##########################################')
         
         
         if self.save_3d==1:
+            path= "/home/stereocamera/Documents/stereocamera_mesurment/3d/"
             df = pd.DataFrame(pcd_as_numpy_array)
-            df.to_csv('my_dataframe'+ str((self.i))+'.csv', index=False)
+            df.to_csv(path + 'pc_'+ str((self.cnt_3d_s))+'.csv', index=False)
             self.save_3d=0
+            self.cnt_3d_s+=1
     
     
     def button_callback(self, msg):
         self.save_3d=1
+        print('save')
+
 
 
 ## The code below is "ported" from 

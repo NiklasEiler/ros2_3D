@@ -1,0 +1,24 @@
+[4.180s] Invoking command in '/home/stereocamera/ros2_3D/src/my_pointcloud': PYTHONPATH=/home/stereocamera/ros2_3D/build/my_pointcloud/prefix_override:/home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pointcloud build --build-base /home/stereocamera/ros2_3D/build/my_pointcloud/build install --record /home/stereocamera/ros2_3D/build/my_pointcloud/install.log --single-version-externally-managed
+[5.410s] running egg_info
+[5.413s] writing ../../build/my_pointcloud/my_pointcloud.egg-info/PKG-INFO
+[5.414s] writing dependency_links to ../../build/my_pointcloud/my_pointcloud.egg-info/dependency_links.txt
+[5.415s] writing entry points to ../../build/my_pointcloud/my_pointcloud.egg-info/entry_points.txt
+[5.416s] writing requirements to ../../build/my_pointcloud/my_pointcloud.egg-info/requires.txt
+[5.417s] writing top-level names to ../../build/my_pointcloud/my_pointcloud.egg-info/top_level.txt
+[5.425s] reading manifest file '../../build/my_pointcloud/my_pointcloud.egg-info/SOURCES.txt'
+[5.429s] writing manifest file '../../build/my_pointcloud/my_pointcloud.egg-info/SOURCES.txt'
+[5.429s] running build
+[5.430s] running build_py
+[5.431s] copying my_pointcloud/my_3d_node.py -> /home/stereocamera/ros2_3D/build/my_pointcloud/build/lib/my_pointcloud
+[5.432s] running install
+[5.433s] running install_lib
+[5.437s] copying /home/stereocamera/ros2_3D/build/my_pointcloud/build/lib/my_pointcloud/my_3d_node.py -> /home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud
+[5.440s] byte-compiling /home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud/my_3d_node.py to my_3d_node.cpython-310.pyc
+[5.445s] running install_data
+[5.448s] running install_egg_info
+[5.454s] removing '/home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud-0.0.0-py3.10.egg-info' (and everything under it)
+[5.456s] Copying ../../build/my_pointcloud/my_pointcloud.egg-info to /home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud-0.0.0-py3.10.egg-info
+[5.464s] running install_scripts
+[5.545s] Installing 3d_node script to /home/stereocamera/ros2_3D/install/my_pointcloud/lib/my_pointcloud
+[5.546s] writing list of installed files to '/home/stereocamera/ros2_3D/build/my_pointcloud/install.log'
+[5.703s] Invoked command in '/home/stereocamera/ros2_3D/src/my_pointcloud' returned '0': PYTHONPATH=/home/stereocamera/ros2_3D/build/my_pointcloud/prefix_override:/home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pointcloud build --build-base /home/stereocamera/ros2_3D/build/my_pointcloud/build install --record /home/stereocamera/ros2_3D/build/my_pointcloud/install.log --single-version-externally-managed

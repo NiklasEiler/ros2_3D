@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.001680] (my_pointcloud) JobQueued: {'identifier': 'my_pointcloud', 'dependencies': OrderedDict()}
+[0.002437] (my_pointcloud) JobStarted: {'identifier': 'my_pointcloud'}
+[0.099237] (-) TimerEvent: {}
+[0.200405] (-) TimerEvent: {}
+[0.301536] (-) TimerEvent: {}
+[0.402303] (-) TimerEvent: {}
+[0.503257] (-) TimerEvent: {}
+[0.604352] (-) TimerEvent: {}
+[0.705602] (-) TimerEvent: {}
+[0.806264] (-) TimerEvent: {}
+[0.907033] (-) TimerEvent: {}
+[1.007812] (-) TimerEvent: {}
+[1.108464] (-) TimerEvent: {}
+[1.209133] (-) TimerEvent: {}
+[1.309751] (-) TimerEvent: {}
+[1.410375] (-) TimerEvent: {}
+[1.511000] (-) TimerEvent: {}
+[1.611622] (-) TimerEvent: {}
+[1.712422] (-) TimerEvent: {}
+[1.813267] (-) TimerEvent: {}
+[1.914224] (-) TimerEvent: {}
+[2.014961] (-) TimerEvent: {}
+[2.116038] (-) TimerEvent: {}
+[2.216974] (-) TimerEvent: {}
+[2.317678] (-) TimerEvent: {}
+[2.418304] (-) TimerEvent: {}
+[2.519012] (-) TimerEvent: {}
+[2.619694] (-) TimerEvent: {}
+[2.720589] (-) TimerEvent: {}
+[2.821260] (-) TimerEvent: {}
+[2.921883] (-) TimerEvent: {}
+[3.022516] (-) TimerEvent: {}
+[3.123162] (-) TimerEvent: {}
+[3.223813] (-) TimerEvent: {}
+[3.324428] (-) TimerEvent: {}
+[3.425349] (-) TimerEvent: {}
+[3.526029] (-) TimerEvent: {}
+[3.626668] (-) TimerEvent: {}
+[3.727494] (-) TimerEvent: {}
+[3.828854] (-) TimerEvent: {}
+[3.893044] (my_pointcloud) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_pointcloud', 'build', '--build-base', '/home/stereocamera/ros2_3D/build/my_pointcloud/build', 'install', '--record', '/home/stereocamera/ros2_3D/build/my_pointcloud/install.log', '--single-version-externally-managed'], 'cwd': '/home/stereocamera/ros2_3D/src/my_pointcloud', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'stereocamera', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/stereocamera', 'OLDPWD': '/home/stereocamera', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1900', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=8904481317f2ed52a930540765b4cb1b', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/stereocamera/ros2_stereo_camera_analyse/install:/home/stereocamera/ros2_3D/install:/home/stereocamera/ros2_gui/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'stereocamera', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'stereocamera', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/stereocamera-desktop:@/tmp/.ICE-unix/1900,unix/stereocamera-desktop:/tmp/.ICE-unix/1900', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/db96f0c0_dd99_4857_8fb8_ab09a4789456', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3J57H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.156', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/stereocamera/ros2_stereo_camera_analyse/install/my_image_processing:/home/stereocamera/ros2_3D/install/my_pointcloud:/home/stereocamera/ros2_gui/install/my_gui:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/stereocamera/ros2_3D/build/my_pointcloud', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=8904481317f2ed52a930540765b4cb1b', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/stereocamera/ros2_3D/build/my_pointcloud/prefix_override:/home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages:/home/stereocamera/ros2_stereo_camera_analyse/install/my_image_processing/lib/python3.10/site-packages:/home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages:/home/stereocamera/ros2_gui/install/my_gui/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.929033] (-) TimerEvent: {}
+[4.029660] (-) TimerEvent: {}
+[4.130333] (-) TimerEvent: {}
+[4.230988] (-) TimerEvent: {}
+[4.331673] (-) TimerEvent: {}
+[4.432295] (-) TimerEvent: {}
+[4.532950] (-) TimerEvent: {}
+[4.633762] (-) TimerEvent: {}
+[4.734386] (-) TimerEvent: {}
+[4.835034] (-) TimerEvent: {}
+[4.935718] (-) TimerEvent: {}
+[5.036472] (-) TimerEvent: {}
+[5.084893] (my_pointcloud) StdoutLine: {'line': b'running egg_info\n'}
+[5.087457] (my_pointcloud) StdoutLine: {'line': b'writing ../../build/my_pointcloud/my_pointcloud.egg-info/PKG-INFO\n'}
+[5.088548] (my_pointcloud) StdoutLine: {'line': b'writing dependency_links to ../../build/my_pointcloud/my_pointcloud.egg-info/dependency_links.txt\n'}
+[5.090341] (my_pointcloud) StdoutLine: {'line': b'writing entry points to ../../build/my_pointcloud/my_pointcloud.egg-info/entry_points.txt\n'}
+[5.091322] (my_pointcloud) StdoutLine: {'line': b'writing requirements to ../../build/my_pointcloud/my_pointcloud.egg-info/requires.txt\n'}
+[5.091961] (my_pointcloud) StdoutLine: {'line': b'writing top-level names to ../../build/my_pointcloud/my_pointcloud.egg-info/top_level.txt\n'}
+[5.101696] (my_pointcloud) StdoutLine: {'line': b"reading manifest file '../../build/my_pointcloud/my_pointcloud.egg-info/SOURCES.txt'\n"}
+[5.105402] (my_pointcloud) StdoutLine: {'line': b"writing manifest file '../../build/my_pointcloud/my_pointcloud.egg-info/SOURCES.txt'\n"}
+[5.106203] (my_pointcloud) StdoutLine: {'line': b'running build\n'}
+[5.106674] (my_pointcloud) StdoutLine: {'line': b'running build_py\n'}
+[5.107210] (my_pointcloud) StdoutLine: {'line': b'copying my_pointcloud/__init__.py -> /home/stereocamera/ros2_3D/build/my_pointcloud/build/lib/my_pointcloud\n'}
+[5.107905] (my_pointcloud) StdoutLine: {'line': b'copying my_pointcloud/my_3d_node.py -> /home/stereocamera/ros2_3D/build/my_pointcloud/build/lib/my_pointcloud\n'}
+[5.109148] (my_pointcloud) StdoutLine: {'line': b'running install\n'}
+[5.110417] (my_pointcloud) StdoutLine: {'line': b'running install_lib\n'}
+[5.113732] (my_pointcloud) StdoutLine: {'line': b'copying /home/stereocamera/ros2_3D/build/my_pointcloud/build/lib/my_pointcloud/__init__.py -> /home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud\n'}
+[5.114793] (my_pointcloud) StdoutLine: {'line': b'copying /home/stereocamera/ros2_3D/build/my_pointcloud/build/lib/my_pointcloud/my_3d_node.py -> /home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud\n'}
+[5.117747] (my_pointcloud) StdoutLine: {'line': b'byte-compiling /home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud/__init__.py to __init__.cpython-310.pyc\n'}
+[5.119490] (my_pointcloud) StdoutLine: {'line': b'byte-compiling /home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud/my_3d_node.py to my_3d_node.cpython-310.pyc\n'}
+[5.124592] (my_pointcloud) StdoutLine: {'line': b'running install_data\n'}
+[5.126958] (my_pointcloud) StdoutLine: {'line': b'copying resource/my_pointcloud -> /home/stereocamera/ros2_3D/install/my_pointcloud/share/ament_index/resource_index/packages\n'}
+[5.127884] (my_pointcloud) StdoutLine: {'line': b'copying package.xml -> /home/stereocamera/ros2_3D/install/my_pointcloud/share/my_pointcloud\n'}
+[5.128513] (my_pointcloud) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.135623] (my_pointcloud) StdoutLine: {'line': b"removing '/home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.136589] (-) TimerEvent: {}
+[5.137593] (my_pointcloud) StdoutLine: {'line': b'Copying ../../build/my_pointcloud/my_pointcloud.egg-info to /home/stereocamera/ros2_3D/install/my_pointcloud/lib/python3.10/site-packages/my_pointcloud-0.0.0-py3.10.egg-info\n'}
+[5.143578] (my_pointcloud) StdoutLine: {'line': b'running install_scripts\n'}
+[5.226014] (my_pointcloud) StdoutLine: {'line': b'Installing 3d_node script to /home/stereocamera/ros2_3D/install/my_pointcloud/lib/my_pointcloud\n'}
+[5.227669] (my_pointcloud) StdoutLine: {'line': b"writing list of installed files to '/home/stereocamera/ros2_3D/build/my_pointcloud/install.log'\n"}
+[5.236859] (-) TimerEvent: {}
+[5.338165] (-) TimerEvent: {}
+[5.361973] (my_pointcloud) CommandEnded: {'returncode': 0}
+[5.438429] (-) TimerEvent: {}
+[5.539398] (-) TimerEvent: {}
+[5.641503] (-) TimerEvent: {}
+[5.660151] (my_pointcloud) JobEnded: {'identifier': 'my_pointcloud', 'rc': 0}
+[5.662999] (-) EventReactorShutdown: {}
